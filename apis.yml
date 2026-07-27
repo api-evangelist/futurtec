@@ -1,8 +1,25 @@
 aid: futurtec
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/futurtec.png
 name: Futurtec
-description: 'Futurtec is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Futurtec (鑫君特) is a Chinese medical-device company founded in 2015 and recognized as a
+  national high-tech enterprise, focused on orthopedic surgical robotics. Its flagship ORTHBOT surgical
+  system combines navigation with automatic robotic execution — intelligent needle placement, non-invasive
+  positioning, dual-camera navigation, and visual force-feedback pressure protection — and holds Chinese
+  regulatory approval (Feb 2021) and EU MDR CE certification (May 2023). The company reports 251+ patents
+  filed or granted, including 84+ invention patents and 25+ PCT applications. As of this enrichment pass,
+  Futurtec publishes no public API, SDK, developer portal, or software surface: it is a clinical hardware
+  manufacturer, so the enrichment pipeline found no API artifacts to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/futurtec/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Health Tech
+- Medical Devices
+- Surgical Robotics
+- Orthopedics
+- Robotics
+- China
 apis: []
+common:
+- type: Website
+  url: https://www.futurtec.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
